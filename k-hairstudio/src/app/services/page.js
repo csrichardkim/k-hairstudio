@@ -5,7 +5,7 @@ export default function Services() {
         
     <section className="p-8">
         <Image
-        src="/khairmenu.webp"
+        src="/khairmenu.jpg"
         alt="Hair Services Menu"
         width={1200}
         height={800}
