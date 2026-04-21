@@ -1,7 +1,18 @@
+import Image from "next/image";
+
 export default function Services() {
-  return (
+    return (
+        
     <section className="p-8">
-      <h2 className="text-3xl font-bold">Our Services</h2>
+        <Image
+        src="/khairmenu.webp"
+        alt="Hair Services Menu"
+        width={1200}
+        height={800}
+        className="w-full object-cover"
+        priority
+      />
     </section>
   );
+
 }
