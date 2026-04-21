@@ -124,7 +124,20 @@ export default function ContactUs() {
               Instagram
             </a>
           </div>
+          
 
+        {/* Google Map */}
+        <div className="w-full md:w-2/3 h-[400px] md:h-auto">
+          <iframe
+            src="https://maps.google.com/maps?q=1515+Liona+St+Suite+200+Honolulu+HI+96814&output=embed"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
         </div>
       </div>
 
