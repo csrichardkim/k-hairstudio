@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { Cormorant_Garamond } from "next/font/google";
 
@@ -22,11 +23,15 @@ export default function Header() {
     <header className={`${cormorant.className} bg-[#f0eeeb] py-4 px-8 flex items-center justify-between border-b border-gray-200`}>
 
       {/* Logo placeholder */}
-      <Link href="/">
-        <div className="w-14 h-14 rounded-full bg-gray-900 flex items-center justify-center text-white cursor-pointer">
-          <span className="text-xs">Logo</span>
-        </div>
-      </Link>
+<Link href="/">
+  <Image
+    src="/logo.webp"
+    alt="Ke'eaumoku Hair Studio"
+    width={56}
+    height={56}
+    className="rounded-full cursor-pointer hover:opacity-80 transition-opacity"
+  />
+</Link>
 
       {/* Nav */}
       <nav className="flex items-center gap-8">
