@@ -20,7 +20,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <header className={`${cormorant.className} bg-[#f0eeeb] py-4 px-8 flex items-center justify-between border-b border-gray-200`}>
+    <header className={`${cormorant.className} sticky top-0 z-50 bg-[#f0eeeb] py-4 px-8 flex items-center justify-between border-b border-gray-200`}>
 
       {/* Logo placeholder */}
 <Link href="/">

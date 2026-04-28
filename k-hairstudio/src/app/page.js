@@ -84,6 +84,27 @@ export default function Home() {
         </div>
       </div>
 
+{/* Announcement Section */}
+<div
+  className="relative w-full py-24 px-6 flex items-center justify-center text-center bg-cover bg-center"
+  style={{ backgroundImage: "url('/hiring.png')" }}
+>
+  {/* Dark overlay */}
+  <div className="absolute inset-0 bg-black/50" />
+
+  {/* Content */}
+  <div className={`${cormorant.className} relative z-10 text-white max-w-2xl`}>
+    <p className="text-xs tracking-widest uppercase text-gray-300 mb-3">ANNOUNCEMENTS:</p>
+    <h2 className="text-4xl md:text-5xl font-light mb-6">
+      We are Hiring!
+    </h2>
+    <p className="text-base md:text-lg font-light leading-relaxed text-gray-200">
+ We are looking for part time / full time stylists. Please email resume and availability to keeaumokuhairstudio@gmail.com
+    </p>
+  </div>
+</div>
+
+
       {/* Map Section */}
       <section className={`${cormorant.className} flex flex-col md:flex-row min-h-[500px]`}>
 
@@ -103,7 +124,7 @@ export default function Home() {
         {/* Info */}
         <div className="w-full md:w-1/3 flex flex-col justify-center px-10 py-12 bg-white">
 
-          <h2 className="text-2xl font-semibold mb-2">Visit Us</h2>
+          <h2 className="text-black text-2xl font-semibold mb-2">Visit Us</h2>
 
           {/* Address */}
           <a
@@ -118,7 +139,7 @@ export default function Home() {
 
           {/* Hours */}
           <div className="mt-6">
-            <p className="font-semibold underline mb-1">Hours</p>
+            <p className="text-black font-semibold underline mb-1">Hours</p>
             <p className="text-gray-700">Monday - Friday: 10am - 7pm</p>
             <p className="text-gray-700">Sunday: 10am - 5pm</p>
             <p className="text-gray-700">Saturday: Closed</p>
@@ -126,7 +147,7 @@ export default function Home() {
 
           {/* Phone */}
           <div className="mt-6">
-            <p className="font-semibold underline mb-1">Phone</p>
+            <p className="text-black font-semibold underline mb-1">Phone</p>
             
             <a
               href="tel:+18083124374"
