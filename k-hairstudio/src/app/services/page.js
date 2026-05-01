@@ -11,6 +11,13 @@ export default function Services() {
   return (
     <section className={`${cormorant.className} p-8`}>
 
+        {/* Hero Banner */}
+      <div className="relative w-full h-64 bg-gray-900 flex items-center justify-center">
+        <h1 className="text-white text-5xl font-light tracking-widest uppercase">
+          Services
+        </h1>
+      </div>
+
       <Image
         src="/khairmenu.jpg"
         alt="Hair Services Menu"

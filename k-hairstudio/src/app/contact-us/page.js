@@ -22,7 +22,7 @@ export default function ContactUs() {
 
         {/* Left - Contact Form */}{/* Left - Booking Info */}
 <div>
-  <h2 className="text-3xl font-light tracking-wide mb-2">Book an Appointment</h2>
+  <h2 className="text-gray-600 text-3xl font-light tracking-wide mb-2">Book an Appointment</h2>
   <p className="text-gray-500 text-sm mb-8">
   </p>
 

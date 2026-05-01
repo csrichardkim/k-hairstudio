@@ -14,38 +14,45 @@ const team = [
     instagram: "https://instagram.com/THEIR_HANDLE",
   },
   {
-    name: "Sarah",
-    title: "Assistant",
-    image: "/team/sarah.webp",
+    name: " ",
+    title: "Stylist",
+    image: "/team/ .webp",
     instagram: "https://instagram.com/THEIR_HANDLE",
   },
   {
-    name: "Rebecca",
-    title: "Assistant",
-    image: "/team/rebecca.webp",
+    name: " ",
+    title: "Stylist",
+    image: "/team/ .webp",
     instagram: "https://instagram.com/THEIR_HANDLE",
   },
-  {
-    name: "Richard",
-    title: "Front Desk",
-    image: "/team/richard.jpeg",
-    instagram: "https://instagram.com/THEIR_HANDLE",
-  }, 
-  {
-    name: "Mele",
-    title: "Mascot",
-    image: "/team/mele.jpeg",
-    instagram: "https://instagram.com/THEIR_HANDLE",
-  },
+  // {
+  //   name: "Richard",
+  //   title: "Front Desk",
+  //   image: "/team/richard.jpeg",
+  //   instagram: "https://instagram.com/THEIR_HANDLE",
+  // }, 
+  // {
+  //   name: "Mele",
+  //   title: "Mascot",
+  //   image: "/team/mele.jpeg",
+  //   instagram: "https://instagram.com/THEIR_HANDLE",
+  // },
 ];
 
 export default function OurTeam() {
   return (
-    <section className={`${cormorant.className} py-20 px-6 bg-white`}>
+    <main className={`${cormorant.className} min-h-screen bg-white`}>
 
-      {/* Heading */}
-      <h1 className="text-center text-5xl font-light tracking-widest uppercase mb-16">
-        Our Team
+   {/* Hero Banner */}
+      <div className="relative w-full h-64 bg-gray-900 flex items-center justify-center">
+        <h1 className="text-white text-5xl font-light tracking-widest uppercase">
+          Our Team
+        </h1>
+      </div>
+
+      {/* H */}
+      <h1 className="text-black text-center text-5xl font-light tracking-widest uppercase mb-16">
+       
       </h1>
 
       {/* Team Grid */}
@@ -84,6 +91,6 @@ export default function OurTeam() {
         ))}
       </div>
 
-    </section>
+    </main>
   );
-}
+} 
